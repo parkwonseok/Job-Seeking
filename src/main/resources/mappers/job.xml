@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="job">
+    <resultMap id="jobResult" type="JobVO">
+        <result property="name" column="name" />
+        <result property="type" column="type" />
+        <result property="address" column="address" />
+        <result property="salary" column="salary" />
+        <result property="deadline" column="deadline" />
+        <result property="inquiry_phone" column="inquiry_phone" />
+        <result property="longitude" column="longitude" />
+        <result property="latitude" column="latitude" />
+    </resultMap> 
+ 
+    <select id="selectJob" resultMap="jobResult">
+    	select * from job where rownum = 1
+    </select>
+    
+    <select id="selectJobList" resultMap="jobResult">
+    	select * from job
+    </select>
+</mapper>
