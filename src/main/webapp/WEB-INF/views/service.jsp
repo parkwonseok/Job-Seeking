@@ -10,11 +10,11 @@
 <body>
 	<div class="job-container">
         <img src="${pageContext.request.contextPath}/resources/images/job.png" alt="일자리">
-        <div class="title">일자리</div>
+        <div class="title">일자리 검색</div>
     </div>
-    <div class="education-container">
-        <img src="${pageContext.request.contextPath}/resources/images/education.png" alt="교육">
-        <div class="title">교육</div>
+    <div class="resume-container">
+        <img src="${pageContext.request.contextPath}/resources/images/resume.png" alt="이력서">
+        <div class="title">이력서 작성</div>
     </div>
     <div class="hobby-container">
         <img src="${pageContext.request.contextPath}/resources/images/delivery.png" alt="택배">

@@ -37,4 +37,12 @@ public class HomeController {
 		request.setAttribute("latitude", jobVO.getLatitude());
 		return "job3";
 	}
+	@RequestMapping(value = "/resume", method = RequestMethod.GET)
+	public String resume() {
+		return "resume";
+	}
+	@RequestMapping(value = "/resume2", method = RequestMethod.GET)
+	public String resume2() {
+		return "resume2";
+	}
 }

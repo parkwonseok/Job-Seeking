@@ -4,7 +4,7 @@ $(function(){
 	}, function(){
 		$(this).removeClass("emphasized");
 	});
-	$(".education-container").hover(function(){
+	$(".resume-container").hover(function(){
 		$(this).addClass("emphasized");
 	}, function(){
 		$(this).removeClass("emphasized");
@@ -18,8 +18,8 @@ $(function(){
 	$(".job-container").click(function(){
 		location.href = 'http://localhost:8080/app/job';
 	});
-	$(".education-container").click(function(){
-		location.href = 'http://localhost:8080/app/education';
+	$(".resume-container").click(function(){
+		location.href = 'http://localhost:8080/app/resume';
 	});
 	$(".hobby-container").click(function(){
 		location.href = 'http://localhost:8080/app/hobby';

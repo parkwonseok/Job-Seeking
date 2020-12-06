@@ -1,0 +1,165 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+.bg-img {
+	border: 0;
+	padding: 0;
+	min-height: 100%;
+	background: #FDF6CE;
+	background-position: center;
+	background-size: cover;
+}
+.mic-container {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translateX(-15%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+.mic-img {
+	width: 300px;
+	height: 300px;
+}
+.mic-img:hover {
+	cursor: pointer;
+}
+.mic-text {
+	font-size: 22px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
+	margin-top: 80px;
+}
+.loader {
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	margin: 3em;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+.loader, .loader:before, .loader:after {
+	animation: 1s infinite ease-in-out;
+}
+.loader:before, .loader:after {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.loader-black {
+	background-color: #FF1604;
+}
+.loader-1 {
+	animation-name: loader1;
+}
+@keyframes loader1 {
+	from { 
+		transform:scale(0);
+		opacity: 1;
+	}
+	to {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+.animation {
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 7%;
+	transform: translateX(-7%);
+	transform: translateY(-15%);
+}
+.resume {
+	position: absolute;
+	top: 7%;
+	left: 75%;
+	transform: translateY(-7%);
+	transform: translateX(-75%);
+}
+.resume > h1 {
+	font-size: 50px;
+}
+.rs-title {
+	width: 100px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+input {
+	width: 500px;
+	height: 70px;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 5px 10px;
+	padding: 10px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+input::placeholder {
+	color: rgba(0,0,0,0.3);
+}
+input:focus {
+	outline: none;
+}
+#next {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 150px;
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 15px 0;
+	background: #FF8E22;
+	border-radius: 10px;
+	border: none;
+	color: white;
+}
+#next:hover {
+	cursor: pointer;
+}
+.resume2 {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translateX(-60%);
+	transform: translateY(-50%);
+	font-size: 22px;
+	font-weight: bold;
+}
+.path-img {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateX(-10%);
+	transform: translateY(-50%);
+	width: 550px;
+	height: 700px;
+}
+#go-back {
+	padding: 15px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 0;
+	background-color: #FF8E22;
+	color: white;
+	border-radius: 10px;
+	margin-top: 70px;
+}
+
+#go-back:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}

@@ -13,7 +13,7 @@ body>div {
 	text-align: center;
 	background-color: #FFE4F4;
 }
-.education-container {
+.resume-container {
 	text-align: center;
 	background-color: #FDF6CE;
 }
@@ -39,13 +39,13 @@ img {
 .job-container>.title {
 	background-color: #FFC3F6;
 }
-.education-container>.title {
+.resume-container>.title {
 	background-color: #FFF689;
 }
 .hobby-container>.title {
 	background-color: #A1CF93;
 }
-.job-container:hover, .education-container:hover, .hobby-container:hover {
+.job-container:hover, .resume-container:hover, .hobby-container:hover {
 	cursor: pointer;
 }
 .emphasized {
