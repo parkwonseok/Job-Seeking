@@ -17,11 +17,8 @@
 		<div class="mic-text">마이크를 클릭하세요</div>
 	</div>
 	<div class="resume">
-		<h1>인적 사항</h1>
-		<div class="flex"><div class="rs-title">이름</div><input type="text" placeholder="예시: 홍길동"><br></div>
-		<div class="flex"><div class="rs-title">생년월일</div><input type="date" placeholder="생년월일"><br></div>
-		<div class="flex"><div class="rs-title">주소</div><input type="text" placeholder="예시: 서울특별시 영등포구 양산로 53"><br></div>
-		<div class="flex"><div class="rs-title">휴대전화</div><input type="text" placeholder="예시: 010-1234-1234"><br></div>
+		<h1>이름을 말씀해주세요</h1>
+		<div class="flex"><input type="text" placeholder="예시: 홍길동"><br></div>
 		<div id="next">다음</div>
 	</div>
 </body>

@@ -5,7 +5,7 @@
 	<title>이력서</title>
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/resume.css">
 	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/resume2.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/resume3.js"></script>
 </head>
 <body>
 	<div class="bg-img"></div>
@@ -17,8 +17,8 @@
 		<div class="mic-text">마이크를 클릭하세요</div>
 	</div>
 	<div class="resume">
-		<h1>생년월일을 선택해주세요</h1>
-		<div class="flex"><input type="date" placeholder="생년월일"><br></div>
+		<h1>주소를 말씀해주세요</h1>
+		<div class="flex"><input type="text" placeholder="예시: 서울특별시 영등포구 양산로 53"><br></div>
 		<div id="next">다음</div>
 	</div>
 </body>

@@ -45,4 +45,16 @@ public class HomeController {
 	public String resume2() {
 		return "resume2";
 	}
+	@RequestMapping(value = "/resume3", method = RequestMethod.GET)
+	public String resume3() {
+		return "resume3";
+	}
+	@RequestMapping(value = "/resume4", method = RequestMethod.GET)
+	public String resume4() {
+		return "resume4";
+	}
+	@RequestMapping(value = "/resume5", method = RequestMethod.GET)
+	public String resume5() {
+		return "resume5";
+	}
 }
