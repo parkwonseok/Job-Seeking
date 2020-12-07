@@ -63,4 +63,8 @@ public class HomeController {
 	public String resume5() {
 		return "resume5";
 	}
+	@RequestMapping(value = "/photo", method = RequestMethod.GET)
+	public String photo() {
+		return "photo";
+	}
 }

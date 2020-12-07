@@ -19,7 +19,7 @@ $(function(){
 		location.href = 'http://localhost:8080/app/job';
 	});
 	$(".resume-container").click(function(){
-		location.href = 'http://localhost:8080/app/resume';
+		location.href = 'http://localhost:8080/app/photo';
 	});
 	$(".hobby-container").click(function(){
 		location.href = 'http://localhost:8080/app/hobby';
