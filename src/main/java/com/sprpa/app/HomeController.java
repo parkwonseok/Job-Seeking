@@ -33,8 +33,14 @@ public class HomeController {
 	@RequestMapping(value = "/job3", method = RequestMethod.GET)
 	public String job3(HttpServletRequest request) {
 		JobVO jobVO = sqlSession.selectOne("job.selectJob");
-		request.setAttribute("longitude", jobVO.getLongitude());
-		request.setAttribute("latitude", jobVO.getLatitude());
+		if(jobVO == null) {
+			request.setAttribute("longitude", 126.888895);
+			request.setAttribute("latitude", 37.525589);
+		}
+		else {
+			request.setAttribute("longitude", jobVO.getLongitude());
+			request.setAttribute("latitude", jobVO.getLatitude());
+		}
 		return "job3";
 	}
 	@RequestMapping(value = "/resume", method = RequestMethod.GET)
