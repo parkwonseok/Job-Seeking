@@ -19,6 +19,7 @@
 	<div class="resume">
 		<h1>전화번호를 말씀해주세요</h1>
 		<div class="flex"><input type="text" placeholder="예시: 010-1234-1234"><br></div>
+		<div id="btn-num"></div>
 		<div id="next">다음</div>
 	</div>
 </body>

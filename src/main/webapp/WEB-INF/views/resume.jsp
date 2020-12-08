@@ -18,8 +18,10 @@
 	</div>
 	<div class="resume">
 		<h1>이름을 말씀해주세요</h1>
-		<div class="flex"><input type="text" placeholder="예시: 홍길동"><br></div>
-		<div id="next">다음</div>
+		<div class="flex"><input id="rs-input" type="text" placeholder="예시: 홍길동"><br></div>
+		<div id="result"><div id="rs-test">성함이 일치합니까?</div><div id="yes">예</div><div id="no">아니오</div></div>
+		<div id="result2">마이크를 다시 눌러서 이름을 말씀해주세요</div>
+		<div id="next">다음</div> 
 	</div>
 </body>
 </html>

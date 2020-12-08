@@ -14,6 +14,17 @@ $(function(){
 	});
 	
 	$('#next').click(function(){
+		$('#result2').attr('style', 'visibility:hidden');
+		$('#result').attr('style', 'visibility:visible');
+	});
+	
+	$('#yes').click(function(){
 		location.href = 'http://localhost:8080/app/resume2';
+	});
+	
+	$('#no').click(function(){
+		$('#result').attr('style', 'visibility:hidden');
+		$('#result2').attr('style', 'visibility:visible');
+		$('#rs-input').val('');
 	});
 });

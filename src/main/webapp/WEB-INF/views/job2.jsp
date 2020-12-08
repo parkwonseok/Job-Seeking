@@ -22,6 +22,7 @@
 			<img id="ic-sub" src="${pageContext.request.contextPath}/resources/images/btn_search.png" alt="검색 버튼">
 		</form>
 	</div>
+	<div class="result1"></div>
 	<img class="jobs" src="${pageContext.request.contextPath}/resources/images/jobs.PNG">
 </body>
 </html>
