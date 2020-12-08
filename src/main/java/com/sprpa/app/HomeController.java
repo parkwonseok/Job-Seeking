@@ -67,4 +67,8 @@ public class HomeController {
 	public String photo() {
 		return "photo";
 	}
+	@RequestMapping(value = "/send", method = RequestMethod.GET)
+	public String send() {
+		return "send";
+	}
 }

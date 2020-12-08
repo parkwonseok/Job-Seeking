@@ -17,8 +17,8 @@
         <div class="title">이력서 작성</div>
     </div>
     <div class="hobby-container">
-        <img src="${pageContext.request.contextPath}/resources/images/delivery.png" alt="택배">
-        <div class="title">택배</div>
+        <img src="${pageContext.request.contextPath}/resources/images/submit.png" alt="제출">
+        <div class="title">이력서 제출</div>
     </div>
 </body>
 </html>

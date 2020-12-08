@@ -22,6 +22,6 @@ $(function(){
 		location.href = 'http://localhost:8080/app/photo';
 	});
 	$(".hobby-container").click(function(){
-		location.href = 'http://localhost:8080/app/hobby';
+		location.href = 'http://localhost:8080/app/send';
 	});
 });
