@@ -5,8 +5,10 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
@@ -67,8 +69,8 @@ public class HomeController {
 	public String photo() {
 		return "photo";
 	}
-	@RequestMapping(value = "/send", method = RequestMethod.GET)
-	public String send() {
-		return "send";
-	}
+	@GetMapping("/send")
+    public String send() {
+        return "send";
+    }
 }
