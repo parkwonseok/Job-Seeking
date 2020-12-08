@@ -85,6 +85,13 @@ body, html {
 	transform: translateY(-18%);
 	transform: translateX(-75%);
 }
+.resume4 {
+	position: absolute;
+	top: 18%;
+	left: 65%;
+	transform: translateY(-65%);
+	transform: translateX(-75%);
+}
 .resume > h1 {
 	font-size: 40px;
 }
@@ -96,6 +103,11 @@ body, html {
 .flex {
 	display: flex;
 	align-items: center;
+}
+.flex4 {
+	display: flex;
+	align-items: center;
+	margin-left: 180px;
 }
 input {
 	width: 500px;
@@ -200,4 +212,24 @@ input:focus {
 }
 #yes:hover, #no:hover {
 	cursor:pointer;
+}
+
+#btn-num {
+	display: flex;
+	align-items: center;
+}
+.btn {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.8);
+	border-radius: 7px;
+	margin-left:5px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.btn:hover {
+	opacity: 0.7;
+	cursor: pointer;
 }

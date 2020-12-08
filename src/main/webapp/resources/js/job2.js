@@ -27,6 +27,9 @@ $(function(){
       else {
          $('.result1').text('해당 직종이 검색되지 않습니다. 다시 말씀해주세요.');
          $('.jobs').css("display", "none");
+         setTimeout(function() {
+         	$('.jobs').css("display", "block");
+         }, 2000);
       }
    });
 	

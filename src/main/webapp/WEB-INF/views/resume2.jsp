@@ -18,7 +18,7 @@
 	</div>
 	<div class="resume">
 		<h1>생년월일을 선택해주세요</h1>
-		<div class="flex"><input type="date" placeholder="생년월일"><br></div>
+		<div class="flex"><input type="text" placeholder="예시: 1992년 1월 3일"><br></div>
 		<div id="next">다음</div>
 	</div>
 </body>
