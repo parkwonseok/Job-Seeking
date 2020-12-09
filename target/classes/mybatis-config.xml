@@ -5,5 +5,6 @@
 <configuration>
 	<typeAliases>
 		<typeAlias type="com.sprpa.app.JobVO" alias="JobVO" />
+		<typeAlias type="com.sprpa.app.ResumeVO" alias="ResumeVO" />
 	</typeAliases>
 </configuration>

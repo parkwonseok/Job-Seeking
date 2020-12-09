@@ -1,5 +1,7 @@
 package com.sprpa.app;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.ibatis.session.SqlSession;
@@ -70,7 +72,11 @@ public class HomeController {
 		return "photo";
 	}
 	@GetMapping("/send")
-    public String send() {
+    public String send(HttpServletRequest request) {
+		List<ResumeVO> resumeList = sqlSession.selectList("job.selectResume");
+		request.setAttribute("resumeList", resumeList);
+		List<JobVO> jobList = sqlSession.selectList("job.selectJobList");
+		request.setAttribute("jobList", jobList);
         return "send";
     }
 }

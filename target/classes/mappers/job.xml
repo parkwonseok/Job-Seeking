@@ -13,7 +13,13 @@
         <result property="inquiry_phone" column="inquiry_phone" />
         <result property="longitude" column="longitude" />
         <result property="latitude" column="latitude" />
-    </resultMap> 
+    </resultMap>
+    
+    <resultMap id="resumeResult" type="ResumeVO">
+        <result property="file_name" column="file_name" />
+        <result property="name" column="name" />
+        <result property="phone" column="phone" />
+    </resultMap>  
  
     <select id="selectJob" resultMap="jobResult">
     	select * from job where rownum = 1
@@ -21,5 +27,9 @@
     
     <select id="selectJobList" resultMap="jobResult">
     	select * from job
+    </select>
+    
+    <select id="selectResume" resultMap="resumeResult">
+    	select * from resume
     </select>
 </mapper>
